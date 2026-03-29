@@ -33,15 +33,27 @@ Implementar validações básicas de entrada<br>
 ---
 
 Tecnologias Utilizadas
-<br>
-React<br>
-JavaScript (ES6+)<br>
-Axios<br>
-CSS3<br>
-React Icons<br>
-Conceitos Aplicados<br>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react" /> React<br>
+  </a>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js" /> JavaScript (ES6+)<br>
+  </a>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html" /> HTML5<br>
+  </a>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=css" /> CSS3<br>
+  </a>
+  
+</p>
+
+
 
 ---
+
+Conceitos Aplicados<br>
 
 ✔ Consumo de API com Axios<br>
 ✔ Gerenciamento de estado com useState<br>
