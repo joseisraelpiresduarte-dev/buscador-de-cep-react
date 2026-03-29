@@ -34,18 +34,18 @@ Implementar validações básicas de entrada<br>
 
 Tecnologias Utilizadas
 <p>
- 
-    <img src="https://skillicons.dev/icons?i=react" /> React<br>
- 
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js" /> JavaScript (ES6+)<br>
-  </a>
+    <img src="https://skillicons.dev/icons?i=react" />
+  </a> React<br>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html" /> HTML5<br>
-  </a>
+    <img src="https://skillicons.dev/icons?i=js" />
+  </a> JavaScript (ES6+)<br>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=css" /> CSS3<br>
-  </a>
+    <img src="https://skillicons.dev/icons?i=html" />
+  </a> HTML5<br>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=css" />
+  </a> CSS3<br>
   
 </p>
 
