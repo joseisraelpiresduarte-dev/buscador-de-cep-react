@@ -1,8 +1,7 @@
 📍 Buscador de CEP
 <p align="center"> <img src="https://img.shields.io/badge/React-18-blue?logo=react" /> <img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript" /> <img src="https://img.shields.io/badge/Axios-HTTP-blueviolet" /> <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-green" /> </p> <p align="center"> Aplicação web para busca de endereços a partir de um CEP utilizando a API ViaCEP. </p>
 🚀 Demonstração
-<p align="center"> <img src="https://via.placeholder.com/800x400.png?text=Preview+do+Projeto" alt="preview do projeto" /> </p>
-
+<br>
 <table align="center" width="800">
   <tr>
     <td width="50%" align="center">
@@ -33,7 +32,8 @@ Implementar validações básicas de entrada<br>
 
 ---
 
-Tecnologias Utilizadas<br>
+Tecnologias Utilizadas
+<br>
 React<br>
 JavaScript (ES6+)<br>
 Axios<br>
@@ -61,4 +61,4 @@ Apresentar os dados com uma leve animação na interface<br>
 
 ---
 
-AutorIsrael Pires<br>
+Autor Israel Duarte
