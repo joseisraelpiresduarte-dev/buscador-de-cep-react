@@ -1,0 +1,168 @@
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: linear-gradient(135deg, #0f0f0f, #1a1f3c, #2b2f55);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+    font-size: 72px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+    animation: flipTitle 1.2s ease;
+
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* animação mais suave */
+@keyframes flipTitle {
+    from{
+        transform: rotateX(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateX(0deg);
+        opacity: 1;
+    }
+}
+
+.containerInput {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+
+    padding: 14px 18px;
+    margin: 30px 0;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.15);
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+
+    transition: all 0.3s ease;
+}
+
+/* efeito ao focar no input */
+.containerInput:focus-within {
+    border: 1px solid #4dabf7;
+    box-shadow: 0 0 0 3px rgba(77, 171, 247, 0.2);
+}
+
+.containerInput input {
+    background-color: transparent;
+    border: 0;
+
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+
+    margin-right: 10px;
+    width: 220px;
+}
+
+.containerInput input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.buttonSearch {
+    background: transparent;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttonSearch:hover {
+    transform: scale(1.2);
+
+}
+
+/* clique */
+.buttonSearch:active {
+    transform: scale(0.95);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(135deg, #ffffff, #f5f7fa);
+    width: 500px;
+    padding: 24px;
+    border-radius: 12px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+
+    /* animação inicial */
+    opacity: 0;
+    transform: translateY(20px) scale(0.98);
+
+    transition: all 0.4s ease;
+}
+
+/* quando aparecer */
+.main.show {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+.main:hover {
+    transform: translateY(-3px) scale(1);
+}
+
+.main h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #222;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.info {
+    width: 100%;
+}
+
+.info p {
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #f9fafb;
+    font-weight: 500;
+    color: #333;
+}
+
+.complemento {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+/* RESPONSIVO */
+@media (max-width: 750px){
+    .main {
+        width: 90%;
+        padding: 16px;
+    }
+
+    .main h2 {
+        font-size: 24px;
+    }
+
+    .info p {
+        font-size: 14px;
+    }
+}
