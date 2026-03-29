@@ -52,15 +52,13 @@ Conceitos Aplicados<br>
 
 ---
 
-Resultado<br>
-<br>
+Resultado:
 O projeto consiste em um buscador de CEP que permite:<br>
-<br>
 Inserir um CEP e consultar informações de endereço<br>
 Exibir dados como rua, bairro, cidade e estado<br>
 Mostrar informações adicionais como complemento (quando disponível)<br>
 Apresentar os dados com uma leve animação na interface<br>
+
 ---
-Autor<br>
-<br>
-Israel Pires<br>
+
+AutorIsrael Pires<br>
