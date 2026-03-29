@@ -33,10 +33,10 @@ Implementar validações básicas de entrada<br>
 ---
 
 Tecnologias Utilizadas
-<p align="center">
-  <a href="https://skillicons.dev">
+<p>
+ 
     <img src="https://skillicons.dev/icons?i=react" /> React<br>
-  </a>
+ 
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=js" /> JavaScript (ES6+)<br>
   </a>
